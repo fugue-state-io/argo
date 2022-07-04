@@ -3,7 +3,7 @@
   "userGivenName": "prometheus",
   "destNamespace": "observability",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/prometheus/infrastructure",
+  "srcPath": "apps/prometheus/overlays/infrastructure",
   "srcRepoURL": "https://github.com/fugue-state-io/argo.git",
   "srcTargetRevision": "",
   "labels": null
