@@ -1,9 +1,9 @@
 {
-  "appName": "demo-app",
-  "userGivenName": "demo-app",
-  "destNamespace": "default",
+  "appName": "prometheus",
+  "userGivenName": "prometheus",
+  "destNamespace": "observability",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/demo-app/overlays/infrastructure",
+  "srcPath": "apps/prometheus/overlays/infrastructure",
   "srcRepoURL": "https://github.com/fugue-state-io/argo.git",
   "srcTargetRevision": "",
   "labels": null
