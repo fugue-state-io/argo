@@ -7,5 +7,5 @@ helmCharts:
   version: 15.5.3
   repo: https://prometheus-community.github.io/helm-charts
 resources:
-- ./namespace.yml
+- ./namespace.yaml
 namespace: observability
