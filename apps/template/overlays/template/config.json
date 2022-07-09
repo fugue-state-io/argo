@@ -1,0 +1,10 @@
+{
+  "appName": "$OVERLAY_APP_NAME",
+  "userGivenName": "$OVERLAY_USER_GIVEN_NAME",
+  "destNamespace": "$OVERLAY_DEST_NAMESPACE",
+  "destServer": "$OVERLAY_DEST_SERVER",
+  "srcPath": "$OVERLAY_SRC_PATH",
+  "srcRepoURL": "$OVERLAY_SRC_REPO_URL",
+  "srcTargetRevision": "",
+  "labels": null
+}

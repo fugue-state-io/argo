@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+helmCharts:
+- name: $HELM_NAME
+  includeCRDs: true
+  releaseName: $HELM_RELEASE_NAME
+  version: $HELM_VERSION
+  repo: $HELM_REPO
+resources:
+- ./namespace.yaml
+namespace: $HELM_NAMESPACE
