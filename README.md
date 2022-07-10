@@ -11,3 +11,5 @@ uses `git-ops`, `argocd-autopilot`
 - keycloak
 - chart-repo
 - image-repo
+- consul
+- vault
