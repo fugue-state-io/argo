@@ -1,0 +1,10 @@
+{
+  "appName": "",
+  "userGivenName": "",
+  "destNamespace": "",
+  "destServer": "",
+  "srcPath": "apps/keycloak/minikube/",
+  "srcRepoURL": "https://github.com/fugue-state-io/argo/",
+  "srcTargetRevision": "",
+  "labels": null
+}
