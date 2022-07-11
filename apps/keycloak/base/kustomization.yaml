@@ -6,6 +6,3 @@ helmCharts:
   releaseName: keycloak
   version: 9.4.0
   repo: github.com/bitnami/charts
-resources:
-- ./namespace.yaml
-namespace: keycloak
