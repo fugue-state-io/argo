@@ -1,0 +1,10 @@
+{
+  "appName": "prometheus",
+  "userGivenName": "prometheus",
+  "destNamespace": "observability",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/prometheus/overlays/minikube",
+  "srcRepoURL": "https://github.com/fugue-state-io/argo.git",
+  "srcTargetRevision": "",
+  "labels": null
+}

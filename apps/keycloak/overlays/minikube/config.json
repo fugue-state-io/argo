@@ -3,7 +3,7 @@
   "userGivenName": "keycloak",
   "destNamespace": "keycloak",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/keycloak/minikube/",
+  "srcPath": "apps/keycloak/overlays/minikube/",
   "srcRepoURL": "https://github.com/fugue-state-io/argo/",
   "srcTargetRevision": "",
   "labels": null
