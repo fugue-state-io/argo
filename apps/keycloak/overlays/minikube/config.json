@@ -4,7 +4,7 @@
   "destNamespace": "keycloak",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/keycloak/overlays/minikube",
-  "srcRepoURL": "https://github.com/fugue-state-io/argo/",
+  "srcRepoURL": "https://github.com/fugue-state-io/argo.git",
   "srcTargetRevision": "",
   "labels": null
 }
