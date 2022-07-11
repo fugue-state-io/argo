@@ -1,0 +1,28 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: minikube-keycloak
+  namespace: keycloak
+spec:
+  destination:
+    namespace: keycloak
+    server: https://kubernetes.default.svc
+  project: minikube
+  source:
+    helm:
+      parameters:
+        - name: build.enabled
+          value: "false"
+        - name: deploy.route.tls.enabled
+          value: "true"
+        - name: image.name
+          value: quay.io/ablock/gitops-helm-quarkus
+    chart: keycloak
+    repoURL: github.com/bitnami/charts
+    targetRevision: 9.4.0
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
