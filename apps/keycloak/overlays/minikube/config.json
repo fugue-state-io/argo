@@ -1,0 +1,10 @@
+{
+  "appName": "keycloak",
+  "userGivenName": "keycloak",
+  "destNamespace": "keycloak",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/keycloak/minikube/",
+  "srcRepoURL": "https://github.com/fugue-state-io/argo/",
+  "srcTargetRevision": "",
+  "labels": null
+}
